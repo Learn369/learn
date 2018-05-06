@@ -1,0 +1,21 @@
+#zlight-nav,
+#zlight-main-nav,
+#zlight-mobile-nav,
+#zlight-main-nav > li,
+#zlight-main-nav > li > a{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/*************
+* WRAP
+*************/
+#zlight-nav{
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+}
+/*************
+* MAIN NAV
+*************/
+

@@ -1,0 +1,2121 @@
+*,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', Helvetica, Arial, "PingFang SC", "Noto Sans", Roboto, "Microsoft Yahei", sans-serif;
+    font-size:17px;
+    letter-spacing: .03em;
+    line-height:20px;
+    background: #e5e5e5;
+    color: #606060;
+    min-width: 375px;
+}
+
+a {
+    color:#181A1C;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1 {
+    margin: 10px;
+}
+p {
+    padding: 10px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+.white-bac{
+    background: #fff;
+}
+.blue{
+    color: #3776ab;
+}
+.red{
+    color: red;
+}
+.clear{!important;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+.navbar {
+    background: #181A1C;
+    margin-bottom:0;
+    min-height:60px;
+}
+
+.navbar-fixed-top {
+    min-height:60px;
+    height:60px;
+    padding-top:0;
+}
+.navbar-inner {
+    background: #181A1C;
+    border-radius:0;
+    filter: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar .brand img {
+    width:120px;
+    height:40px;
+}
+.navbar .nav > li > a {
+    text-transform:uppercase;
+    vertical-align: middle;
+    margin:10px 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: 1px solid #181A1C;
+    box-shadow: none;
+    font-size:15px;
+    text-shadow: none;
+    color: #fff;
+    transition: border-color 1s ease;
+}
+.navbar .nav > li:hover> a,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    border: 1px solid #FECE1A;
+    color: #fff;
+    background-color: #181A1C;
+    transition: border-color 1s ease;
+}
+.nav-pills {
+    margin-bottom: 30px;
+}
+.nav-pills > li > a {
+    background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-left: 20px;
+    border: 1px solid #181A1C;
+}
+.nav-pills > li > a:hover,
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+    background: #181A1C;
+    color: #fff;
+}
+.navbar .btn-navbar:hover, .navbar .btn-navbar {
+    border-radius:0;
+    background:#FECE1A;
+    color: #000;
+    margin-top: 12px;
+}
+
+.bbs>.navbar>.navbar-inner>.container>.btn-navbar{
+    float: left;
+    color: #fff;
+    background: none;
+    border-style: none;
+    box-shadow: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.copyrights{
+    text-indent:-9999px;
+    height:0;
+    line-height:0;
+    font-size:0;
+    overflow:hidden;
+}
+/******
+2. Layout
+**********************************************************************/
+.centered {
+    margin-left:auto;
+    margin-right:auto;
+    float: none;
+    text-align: center;
+}
+/* Use this class if you want ceter element with span* class */
+.center {
+    float: none !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.highlighted-box {
+    background:#F4F8F9;
+    padding:20px 30px;
+}
+.highlighted-box h1 {
+    margin:0px;
+}
+.large-text {
+    line-height:1.2em;
+    font-size: 30px;
+    color: #181A1C;
+    padding:20px;
+    margin-bottom:20px;
+}
+.highlighted-box h2, .highlighted-box p {
+    color: #181A1C !important;
+}
+.highlighted-box p{
+    margin: 0;
+    padding: 0 0 10px 0;
+    line-height: 22px;
+}
+.highlighted-box p span{
+    font-size: 16px;
+    color: #686868;
+}
+.circle-border {
+    display: inline-block;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    -khtml-border-radius: 500px;
+    border: 3px solid #fff;
+}
+.left-align {
+    text-align:left;
+}
+.right-align {
+    text-align:left;
+}
+.error {
+    color: #CF0000;
+    display: none;
+}
+.invisible {
+    display:none;
+    visibility:visible;
+}
+.triangle {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #181A1C;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+/*
+2.1 Animations
+**********/
+.zoom-in {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+.zoom-in:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
+/*
+2.2 Buttons - There are buttons on a transparent background, primary and secondary color background.
+**********/
+.button,  .button:visited, .button:focus {
+    display:inline-block;
+    border:1px solid #181A1C;
+    color:#181A1C;
+    background-color:transparent;
+    padding:15px 30px;
+    font-size:17px;
+}
+.button:hover, .button:active{
+    background-color:#181A1C;
+    color:#fff;
+}
+.button-sp, .button-sp:visited, .button-sp:focus {
+    border:none;
+    background-color:#FECE1A;
+    color:#181A1C;
+}
+.button-sp:hover, .button-sp:active {
+    background-color:#181A1C;
+    color:#FECE1A;
+}
+.button-ps, .button-ps:visited, .button-ps:focus {
+    border:none;
+    background-color:#181A1C;
+    color:#FECE1A;
+}
+.button-ps:hover, .button-ps:active {
+    background-color:#FECE1A;
+    color:#181A1C;
+}
+/*
+2.3 Thumbnails - Predefined bootstrap's thumbnail class.
+**********/
+.thumbnail {
+    width:100%;
+    height:100%;
+    padding:0;
+    overflow: hidden;
+    position: relative;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    text-align:center;
+    background: #191a1c;
+}
+.thumbnail .more {
+    display:block;
+    z-index:4;
+    position:absolute;
+    top:-100px;
+    left:50%;
+    margin:0 auto;
+    margin-left:-41px;
+    width:80px;
+    height:80px;
+    font-size:40px;
+    color:#fff;
+    text-decoration:none;
+    line-height: 70px;
+    text-align: center;
+}
+.thumbnail:hover .more {
+    top:40%;
+    margin-top:-40px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.thumbnail h3,
+.thumbnail p {
+    margin:0;
+    padding:0;
+    position:relative;
+    z-index:4;
+}
+.thumbnail h3 {
+    color: #FECE1A;
+    margin-top:10px;
+    font-size:20px;
+}
+.thumbnail > p {
+    padding-bottom:20px;
+}
+.thumbnail .mask {
+    opacity:0.55;
+    filter: alpha(opacity=85);
+    top:100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#181A1C;
+    position:absolute;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.thumbnail:hover .mask {
+    top:0;
+}
+/*
+2.4 Socail icons
+************/
+.social {
+    list-style: none;
+    float: none;
+    position:relative;
+    margin:5px auto;
+}
+.social li {
+    display:inline-block;
+    line-height: 32px;
+    font-family:'Porta';
+    font-size: 32px;
+    padding:0 5px;
+}
+.social li a {
+    margin:0;
+    padding:0;
+    width:32px;
+    height:32px;
+    color: #FECE1A;
+}
+.social li a:hover {
+    color:#181A1C;
+}
+/*
+3. Sections
+***************************************************************************/
+.section {
+    padding-bottom: 50px;
+}
+.section .container {
+    padding-top:50px;
+}
+.section .title {
+    text-align: center;
+    padding:10px;
+    margin-bottom: 30px;
+}
+.section .title h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.section .title > p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFF;
+    font-weight: lighter;
+}
+.primary-section {
+    background:#181A1C;
+}
+.primary-section .triangle {
+    border-top: 40px solid #FECE1A;
+}
+.primary-section .title {
+    border-bottom: 1px solid #FFF;
+}
+.primary-section, .primary-section .title p, .primary-section h3 {
+    color: #FECE1A;
+}
+.primary-section h1 {
+    color:#FFF;
+}
+.secondary-section {
+    background:#FECE1A;
+}
+.secondary-section .title {
+    border-bottom: 1px solid #181A1C;
+}
+.secondary-section h1, .secondary-section .title p {
+    color: #181A1C;
+}
+/* Third section use bacground image */
+.third-section {
+    padding-bottom: 70px;
+    background: #181A1C url(../images/brand-bg.png) no-repeat center;
+    border-top:6px solid #FECE1A;
+}
+.third-section .container {
+    padding-top:20px;
+    position:relative;
+}
+.third-section .title {
+    border-bottom: 1px solid #A1AAB7;
+    color: #FECE1A;
+}
+.sub-section {
+    margin-top:30px;
+}
+.sub-section .title {
+    padding:0;
+}
+/*******
+3.1 技术
+***************************************/
+.skill{
+    margin-top:20px;
+}
+.skill, .skill h2 {
+    padding-top:15px;
+}
+.skill p {
+    padding:0px 50px;
+    height:60px;
+}
+.skill img {
+    width:150px;
+    height:150px;
+}
+/*
+3.2 Portfolio
+***************************************/
+.single-project {
+    margin-bottom:30px;
+    background:#181A1C;
+}
+.single-project img {
+    width:100%;
+}
+.project-description {
+    padding-right:20px;
+}
+.project-description p {
+    padding-left:0;
+}
+.project-description *{
+    color: #FFFFFF;
+}
+.project-title {
+    margin-top:15px;
+    margin-bottom:15px;
+    border-bottom:1px solid #FECE1A;
+}
+.project-title h3 {
+    float:left;
+    margin-top:0;
+    padding:0;
+    width:80%;
+}
+.project-title h3 a{
+    color: #FECE1A;
+}
+.project-title .close {
+    color: #FECE1A;
+    margin-top:10px;
+}
+.project-info span, .project-title h3 {
+    color:#FECE1A;
+}
+.project-info {
+    font-weight:100;
+    padding:10px 0;
+}
+.project-info span {
+    width: 80px;
+    display: inline-block;
+}
+.project-info div {
+    margin-bottom:5px;
+}
+.close {
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+#portfolio-grid .mix {
+    opacity: 0;
+    display: none;
+}
+/*
+3.3 About
+******************************************************************/
+.team .thumbnail {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.team .thumbnail:hover .social {
+    z-index: 5;
+}
+.team .thumbnail:hover .social a {
+    color:#fff;
+}
+.team .thumbnail .mask {
+    background: #FECE1A;
+}
+.team .thumbnail .mask h2 {
+    margin-top:20%;
+}
+.team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
+    color:#181A17;
+}
+.about-text {
+    margin-top:30px;
+}
+.about-text p {
+    padding:0;
+    font-size:16px;
+}
+/*********************************************************************
+                        SKILLS BAR
+*********************************************************************/
+.skills {
+    list-style-type: none;
+    position: relative;
+    margin:0px;
+}
+.skills li {
+    margin-bottom:30px;
+    background:#FFF;
+    height:40px;
+    padding:1px;
+}
+.skills li h3 {
+    position: relative;
+    font-size: 15px;
+    padding:0;
+    margin:0;
+    left: 10px;
+    z-index: 1;
+    color: #181A1C;
+}
+.skills li .bar {
+    height:40px;
+    position:absolute;
+    background-color: #FECE1A;
+}
+/*
+3.4 Clients
+**********************************************************************/
+.client-slider img {
+    border:1px solid white;
+}
+.client-slider img:hover {
+    background-color:#FECE1A;
+}
+.client-nav {
+    list-style:none;
+    margin-top:10px;
+}
+.client-nav li {
+    float:left;
+    display:block;
+    margin-left:10px;
+}
+.client-nav li a {
+    display:inherit;
+    padding:5px;
+    background:#FECE1A;
+    border-radius:3px;
+    width:20px;
+    height:20px;
+}
+.client-nav li a:hover {
+    background:#181A1C;
+}
+.testimonial p {
+    color:#181A1C;
+    background:#FECE1A;
+    padding:15px;
+    margin:0;
+}
+.testimonial .arrow {
+    margin-left:10px;
+    width:0;
+    border-top:10px solid #FECE1A;
+    border-left: 20px outset transparent;
+    border-right: 20px outset transparent;
+}
+.testimonial .whopic {
+    display:inline-block;
+}
+.testimonial .whopic img {
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    float:left;
+}
+.testimonial .whopic strong {
+    float:left;
+    margin-top:10px;
+    padding-left:10px;
+}
+.testimonial .whopic small {
+    display:block;
+    font-size:12px;
+
+}
+.testimonial-text{
+    display:block;
+    font-size:22px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    width:70%;
+    line-height:1.3em;
+}
+.primary-section .container > a{
+    display: block;
+    width: 78px;
+    height: 20px;
+    margin: 30px auto 0 auto;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-align:center;
+}
+.primary-section .container > a:hover{
+    color: #000000;
+    background: #FFFFFF;
+}
+/*
+3.5 Price table
+******************************************************************/
+.price-table {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.price-column {
+    background-color:white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom:20px;
+    margin:0 auto;
+    text-align:center;
+}
+.price-column h3 {
+    background-color:#181A1C;
+    text-transform:uppercase;
+    text-align: center;
+    color:#FECE1A;
+    padding:40px 0px;
+    font-size: 36px;
+    margin-top:0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.price-column .list{
+    list-style:none;
+    margin:20px 50px;
+}
+.price-column .list li{
+    font-weight:lighter;
+    color:#747C89;
+    font-size:20px;
+    border-bottom:1px solid #747C89;
+    padding:25px 0px;
+}
+.price-column .list li.price {
+    text-align: center;
+    font-size:31px;
+    background-color:white;
+    color:#747C89;
+    margin-top:25px;
+}
+.price-text{
+    margin:30px 0 20px;
+    font-size:20px;
+    color: #181A1C;
+    font-weight:normal;
+}
+/*
+3.6 Newsletter
+********************************************************************/
+.newsletter, .newsletter h2 {
+    color: #D7DDDE;
+}
+.newsletter .title h2 {
+    text-align:left;
+    padding:0;
+    margin:0;
+}
+.newsletter form {
+    text-align:right;
+}
+.newsletter input {
+    margin-top:10px;
+    padding:15px;
+    height: auto;
+}
+.newsletter button {
+    margin: 0 0 0 20px;
+}
+.newsletter .button-sp:hover, .newsletter .button-sp:active {
+    background-color:#FFF;
+    color:#181A1C;
+}
+
+/*
+3.7 Contact
+********************************************************************/
+.contact {
+    background: #FECE1A;
+}
+.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
+    color: #181A1C;
+}
+.contact textarea, .contact input[type="text"], .contact input[type="email"] {
+    padding: 10px;
+    line-height: 20px;
+    height: auto;
+}
+.contact textarea {
+    height: 120px;
+}
+.contacts, .contact .social {
+    color: #fff;
+    list-style: none;
+    margin-left: 10px;
+}
+.contacts > li {
+    margin-top: 15px;
+}
+.contacts > li > a {
+    color: #fff;
+}
+.contact-info {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.contact-info p{
+    font-weight:normal;
+}
+.contact-info a{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+    color: #686868;
+}
+.contact-info a:hover{
+    color: #000000;
+}
+.contact-info .icon {
+    margin:10px auto;
+    font-size:30px;
+}
+.map-wrapper {
+    position:relative;
+    height:500px;
+}
+.map-canvas {
+    position:absolute;
+    margin-bottom:20px;
+    width:100%;
+    height:500px;
+    color: #29383F;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+}
+.contact .social {
+    display: inline-block;
+    margin-left:0;
+}
+.contact .social li {
+    line-height: 32px;
+    padding:10px 10px;
+    font-family:'Porta';
+    font-size: 50px;
+    transition: margin 0.4s;
+    -webkit-transition: margin 0.4s;
+}
+.contact .social li a {
+    color:#fff;
+}
+.contact .social li a:hover {
+    color:#181A1C;
+}
+.contact-form {
+    background:#fff;
+    background: rgba(255, 255, 255, 0.9);
+    z-index:110;
+    position:relative;
+    margin-top:-25px;
+    padding:20px;
+}
+.contact-form h3 {
+    color:#838589;
+    padding-bottom:20px;
+}
+.message-btn {
+    border:1px solid #747C89;
+    color:#747C89;
+    background-color:transparent;
+    padding:15px 30px;
+    font-size:17px;
+}
+.message-btn:hover {
+    background-color:#FECE1A;
+}
+.contact-info {
+    text-align:center;
+    font-size:22px;
+}
+.info-mail {
+    border:1px solid white;
+    width:60%;
+    margin:0 auto;
+    padding:15px;
+    color:#181A1C;
+}
+.black {
+    color:#181A1C;
+}
+/*
+3.8 Footer
+********************************************************************/
+.footer {
+    background: #181A1C;
+    text-align: center;
+}
+.footer > p {
+    color: #fff;
+    margin:0;
+}
+
+.footer a{
+    color:#FECE1A;
+}
+
+.footer a:hover, .footer a:focus{
+    text-decoration: underline;
+}
+.scrollup {
+    text-align:center;
+    cursor:pointer;
+    vertical-align:middle;
+    width:39px;
+    height:39px;
+    line-height: 39px;
+    border-radius:5px;
+    font-size:20px;
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    border:1px solid #fff;
+    display:none;
+    background: #FECE1A;
+}
+.scrollup > a {
+    color:#fff;
+}
+/*
+4 Responsible
+********************************************************************/
+@media (min-width: 1200px) {
+    .thumbnail .more {
+        margin-left:-41px;
+        width:80px;
+        height:80px;
+        border-radius:40px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 979px) {
+    body {
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+}
+@media (max-width: 767px) {
+    .info-mail {
+        width:90%;
+        padding:15px 0px;
+    }
+    .project-description {
+        padding-left:20px;
+    }
+    .price-column, .testimonial {
+        margin-top:30px;
+    }
+}
+
+/*
+4 社区
+********************************************************************/
+.br5, .side>div, .topic-l>div{
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    overflow: hidden;
+}
+.container .row-fluid>div>div{
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+/*
+4 导航
+********************************************************************/
+.navbar .inline-group{
+    height: 30px;
+    padding: 15px 0;
+    margin: 0;
+}
+.navbar .inline-group input,
+.navbar .inline-group button{
+    margin: 0;
+}
+.navbar .inline-group button{
+    background: #ffffff;
+}
+.bbs .blue-bac,
+.bbs .blue-bac .navbar-inner{
+    background: #3776ab;
+}
+.bbs .navbar .nav > li:hover> a,
+.bbs .navbar .nav > .active > a,
+.bbs .navbar .nav > .active > a:hover,
+.bbs .navbar .nav > .active > a:focus,
+.bbs .user .rnav > ul > .active,
+.bbs .user .rnav > ul > .active:hover,
+.bbs .user .rnav > ul > .active:focus{
+    border: none;
+    color: #3776ab;
+    font-weight: bold;
+    background-color: #ffce1a;
+    transition: border-color 1s ease;
+}
+.bbs .navbar .nav > li > a{
+    border: none;
+}
+
+/*
+4 分类导航
+********************************************************************/
+.compose .nav{
+    margin: 15px 0;
+}
+.compose .nav li a{
+    border: none;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    height: 15px;
+    line-height: 15px;
+    padding: 10px 15px;
+}
+.compose .sort{
+    height: 35px;
+    line-height: 35px;
+    margin-right: 15px;
+}
+.compose .sort:hover{
+    cursor: pointer;
+}
+/*分类列表*/
+.sort-list{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+}
+/* 滚动条层 */
+.R-layer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.R-layer::-webkit-scrollbar {
+    display:none;
+}
+/* 分类列表 */
+.sort-list .box{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+
+    z-index: 999999;
+    background: #fff;
+    border-radius: 5px;
+}
+.box>.title{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 15px;
+    position: relative;
+}
+.box .title i{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box .infos{
+    padding: 20px 25px;
+}
+.box .info-list{
+    font-size: 16px;
+    color: #999999;
+}
+.box .tag{
+    padding: 10px 0 10px 80px;
+}
+.box .tag a{
+    display: inline-block;
+    padding: 0 25px 15px 0;
+}
+
+.sort-list .back{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+}
+
+.bbs .nav-pills > li > a:hover,
+.bbs .nav-pills > .active > a,
+.bbs .nav-pills > .active > a:hover,
+.bbs .nav-pills > .active > a:focus{
+    background: #3776ab;
+}
+/*帖子列表*/
+.topic{
+    min-height: 48px;
+    position: relative;
+    border-bottom: 1px solid #efefef;
+    list-style-type: none;
+}
+{
+    list-style-type: none;
+}
+.topic .avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.topic .infos{
+    margin: 0 0 0 60px;
+}
+.topic .infos .title h2{
+    display: inline-block;
+    margin: 0 0 4px 0;
+    padding: 0;
+    line-height: 24px;
+    color: #414141;
+    font-size: 16px;
+}
+.topic .infos .title .tag{
+    color: #838383;
+    margin-right: .3em;
+}
+.topic .infos .title a:hover{
+    color: #333333;
+}
+.topic .infos .info{
+    color: #999999;
+    font-size: 14px;
+}
+.topic .review{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    height: 48px;
+    width: 30px;
+    text-align: center;
+    line-height: 48px;
+}
+/*分页*/
+.pagination a:hover{
+    color: #fff;
+}
+.pag{
+    padding: 25px 0;
+}
+.orders{
+    height: 50px;
+    background: #f3f3f3;
+}
+.top25{
+    margin-top: 25px;
+}
+.pad20{
+    padding: 20px;
+}
+.orders .container{
+    height: 50px;
+}
+.orders .container .compose{
+    position: relative;
+    top:-7px;
+}
+.orders *{
+    font-size: 14px;
+}
+/*社区右侧栏*/
+.side>div{
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: #fff;
+}
+.side-btn{
+    padding: 25px;
+}
+.side-btn>a{
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+}
+
+.notice .title{
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    background: #fafafa;
+}
+.notice .title h4,.notice .link p{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    color: #999999;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.notice .title h4 a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+.notice .info{
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+/*酷站推荐*/
+.notice .link{
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+/*社区底部*/
+.bbs .footer{
+    background: none;
+    padding-top: 20px;
+}
+.bbs .footer>div{
+    background: #3776ab;
+    color: #FFFFFF;
+}
+.bbs .footer>div p{
+    margin: 0;
+}
+/*返回顶部*/
+.floatTop{
+    width: 30px;
+    height: 70px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.floatTop i{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: #3776ab;
+}
+
+/*topic*/
+.topic-l>div>div{
+    padding: 20px;
+}
+.card-header{
+    position: relative;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+.card-header h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    margin: 0 0 20px 0;
+}
+
+.card-header h2 a{
+    display: inline-block;
+    margin-right: .3em;
+    color: #CCCCCC;
+}
+.card-header .info{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #adaaa8;
+}
+.card-header .info .attention{
+    font-size: 14px;
+    letter-spacing: 3px;
+    height: 24px;
+    padding: 0 5px;
+    border: none;
+    background: #3776ab;
+    color: #FFF;
+    border-radius: 3px;
+    margin-left: 20px;
+
+}
+.topic .handle{
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+.handle ul li{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    list-style-type: none;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.topic-l .header-title{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+.review .review-list{
+    padding: 0;
+    margin: 0;
+}
+.review .review-list li{
+    list-style-type: none;
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.review .review-list .active{
+    overflow: hidden;
+}
+.active a{
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+
+}
+.active a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.active .user, .active .floor{
+    height: 20px;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+.active .user{
+    font-size: 16px;
+    vertical-align: top;
+}
+.active .user>span{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+.active .user>span .like:hover{
+    background: #f9f9f9;
+}
+.active .floor{
+    font-size: 14px;
+    line-height: 23px;
+    vertical-align: text-bottom;
+    color: #ccc;
+}
+.active .floor span{
+
+}
+.review .review-list .comment{
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #999999;
+}
+.comment .reply{
+    padding: 5px;
+    background: #f9f9f9;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.comment .reply>div{
+    padding-bottom: 10px;
+}
+.comment .reply a{
+    color: #3776ab;
+    font-size: 14px;
+    border-bottom: 1px dotted #3776ab;
+}
+.comment .reply>span{
+    padding: 0 15px 0 0;
+}
+
+/*评论回复输入*/
+.reply-menu .menu{
+    position: relative;
+}
+.reply-menu .menu .sign{
+    margin-bottom: 20px;
+}
+.reply-menu .menu form{
+    margin: 0;
+}
+form .insert a{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+form textarea{
+    box-sizing:border-box;
+    width: 100%;
+    height: 180px;
+    margin-top: 6px;
+    padding: 6px 12px;
+    resize: none;
+}
+form .file-can{
+    position: relative;
+}
+form #file{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    opacity: 0;
+    overflow: hidden;
+}
+form .submit{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #3776ab;
+}
+.reply-menu .submit:hover{
+    background: #275f85;
+}
+
+
+/*用户信息开始*/
+.side-user .title,
+.side-topic .title{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+.side-user .nickname{
+    height: 48px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.side-user .nickname img{
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.side-user .nickname .name{
+    font-size: 15px;
+    color: #333333;
+}
+.side-user .nickname button{
+    width: 60px;
+    height: 24px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    background: #3776ab;
+}
+/*相关话题*/
+.related .item{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px 20px;
+    display: inline-block;
+    border-bottom: 1px solid #f9f9f9;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.related .item a{
+    font-size: 14px;
+}
+
+/* 分类页 */
+.type-name,
+.type-name .navbar-inner,
+.type-name .container{
+    height: 80px;
+    background: #f3f3f3;
+}
+.type-name,.type-name .container h3{
+    margin: 5px 0 0 0;
+    color: #333333;
+}
+.type-name,.type-name .container h3 span{
+    font-size: 14px;
+    color: #b4b4b4;
+}
+.type-name,.type-name .container p{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/*注册*/
+.bbs .sign .container .row-fluid .card,
+.bbs .sign .container .row-fluid .card form{
+    margin-bottom: 0;
+}
+.sign .card-header{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.sign .card-body{
+    padding: 20px;
+}
+.sign .card-body .form-group input{
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+/*发布话题*/
+.bbs .news{
+    background: #fff;
+    margin-bottom: -20px;
+}
+.bbs .news form{
+    padding: 20px;
+    margin-top: 20px;
+}
+.bbs .news form>div{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+}
+.bbs .news form>div>*{
+    height: 38px;
+    line-height: 28px;
+    box-sizing: border-box;
+}
+.bbs .news form>div>a{
+    line-height: 38px;
+}
+.bbs .news form>div span{
+    padding: 5px 10px;
+}
+.bbs .news form input.tag:focus{
+    outline:none;
+    box-shadow: none;
+}
+.bbs .news form .submit{
+    margin-top: 20px;
+}
+
+/*user*/
+/*导航栏*/
+.bbs .user .span2{
+
+}
+.bbs .user .span2,.bbs .user .span10{
+    height: 620px;
+}
+.bbs .user .rnav{
+    width: 100%;
+    margin-top: 10px;
+}
+.bbs .user .rnav ul{
+    border-bottom: none;
+}
+.bbs .user .rnav li{
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    line-height: 45px;
+    list-style-type: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.bbs .user .rnav li a{
+    color: #FFFFFF;
+    padding: 0;
+    background: none;
+    border: none;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.bbs .user .rnav li a i{
+    float: left;
+    margin-right: 5px;
+}
+.bbs .user .rnav>ul li:hover{
+    border-left: 6px solid #ffce1a;
+}
+.bbs .user .user-panel{
+    padding: 20px;
+}
+.bbs .user .user-panel>.header{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 20px;
+    color: #333333;
+    background: #f9f9f9;
+    margin: 20px 0;
+}
+.bbs .user .user-panel .container-fluid{
+    padding: 0;
+}
+.bbs .user .user-panel .container-fluid .span6{
+    height: 155px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+.bbs .user .user-panel .container-fluid .header{
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0;
+    font-size: 15px;
+}
+.bbs .user .user-panel .container-fluid .header a{
+    font-size: 15px;
+    color: #FF5722;
+}
+.bbs .user .user-panel .container-fluid .header span{
+    padding: 0 10px;
+    color: #e7e7e7;
+}
+.bbs .user .user-panel .container-fluid .signin-btn{
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    font-size: 15px;
+    padding: 35px 0;
+}
+.bbs .user .user-panel .container-fluid .signin-btn>button{
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    background: #3776ab;
+    color: #ffffff;
+    border: none;
+    padding: 0 30px;
+}
+.bbs .user .user-panel .container-fluid .grade{
+    padding: 29px 20px;
+}
+.bbs .user .user-panel .container-fluid .grade p{
+
+    color: #333333;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.bbs .user .user-panel .container-fluid .shortcut{
+    padding: 10px 20px;
+    margin: 0;
+}
+.bbs .user .user-panel .container-fluid .shortcut .span3{
+    background: #3776ab;
+    color: #fff;
+    font-size: 15px;
+    height: 48px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bbs .user .user-panel .container-fluid .shortcut .span3 a{
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*基本设置*/
+.bbs .user .tab-pane{
+    padding: 0 20px;
+}
+.bbs .user .tab-pane>.nav>.active{
+    border: none;
+    border-bottom: 3px solid #3776ab;
+}
+.bbs .user .tab-pane>.nav>li{
+    padding: 0 10px;
+}
+.bbs .user .tab-pane>.nav>li a{
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+}
+.bbs .user .tab-pane>.nav>.active a,
+.bbs .user .tab-pane>.nav>.active a:hover,
+.bbs .user .tab-pane>.nav>.active a:focus,
+.bbs .user .tab-pane>.nav>li a,
+.bbs .user .tab-pane>.nav>li a:hover,
+.bbs .user .tab-pane>.nav>li a:focus{
+    border: none;
+    background: none;
+}
+#Data form>div,
+#Passworld form>div{
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#Data form>div>span,
+#Passworld form>div>span{
+    display: inline-block;
+    float: left;
+    margin: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    border-radius: 5px 0 0 5px;
+}
+#Passworld form>div>span{
+    width: 88px;
+    text-align: center;
+}
+#Data form>div>input,
+#Passworld form>div>input{
+    float: left;
+    width: 200px;
+    height: 38px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #d2d2d2;
+    border-radius: 0 5px 5px 0;
+}
+
+#Data form>div .sex,
+#Data form>div .hint,
+#Passworld form>div .hint{
+    float: left;
+    width: 280px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    position: relative;
+}
+#Data form>div .sex input{
+    height: 24px;
+    width: 24px;
+    margin: 0 10px 0 15px;
+}
+#Data form>div .sex .radio-hide{
+    opacity: 0;
+}
+#Data form>div .sex .radio-show{
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#Data form>div .sex .radio-show i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 7px 0 15px;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    top:6px;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+}
+#Data form>div .sex .radio-show .icon-radio-in{
+    border: 1px solid #3776ab;
+    background: url(../images/radio-in.png) no-repeat center;
+}
+#Data form .sign>div{
+    background: #f4f4f4;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 20px;
+    border: 1px solid #d2d2d2;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+#Data form .sign>textarea{
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+#HeadPortraits .headPortraits{
+    width: 335px;
+    text-align: center;
+}
+#HeadPortraits img{
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#HeadPortraits form{
+    position: relative;
+}
+#HeadPortraits form input{
+    width: 120px;
+    height: 40px;
+    font-size: 100px;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+#HeadPortraits form .file{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 5px 0;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #3776ab;
+    color: #ffffff;
+    border-radius: 5px;
+    *display: inline;
+    *zoom: 1;
+}
+#Rigging div{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+    background: #f4f4f4;
+    margin-bottom: 20px;
+}
+#Rigging div a{
+    color: #3776ab;
+}
+#MyPost .tab-content{
+    overflow: hidden;
+}
+#MyPost .tab-content .tab-pane{
+    padding: 0;
+}
+#MyPost table{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+}
+#MyPost table tr{
+    height: 40px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #999;
+ }
+#MyPost table tr:hover{
+    background: #f2f2f2;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+#MyPost table th{
+    font-weight: 400;
+    border: none;
+    background: #f2f2f2;
+    box-sizing: border-box;
+}
+#MyPost table tr td{
+    max-height: 41px;
+    box-sizing: border-box;
+    border: none;
+}
+#MyPost table tr .title{
+    width: 550px;
+}
+#MyPost #CollectPost table tr .title{
+    width: 768px;
+}
+#MyPost #CollectPost table tr .title a{
+    max-width: 768px;
+}
+#MyPost table tr .title a{
+    display: inline-block;
+    height: 40px;
+    line-height: 45px;
+    font-size: 14px;
+    max-width: 550px;
+    padding: 0 10px;
+    overflow: hidden;
+    color: #3776ab;
+}
+#MyPost table tr .title a:hover{
+    text-decoration: underline;
+}
+#MyPost table tr .redact a{
+    display: inline-block;
+    background: #3776ab;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 3px;
+}
+#MyPost table tr .status,
+#MyPost table tr .redact,
+#MyPost table tr .lr{
+    min-width: 40px;
+}
+#MyPost table tr .lr span{
+    display: inline-block;
+}
+#MyPost table tr .time{
+    min-width: 80px;
+}
+#MyPost .pagination{
+    margin: 0;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+#MyPost .pagination span{
+    font-size: 14px;
+    color: #999;
+}
+#MyPost .pagination .prev,
+#MyPost .pagination .next{
+    padding: 3px 8px;
+}
+#MyPost .pagination .cur{
+    color: #3776ab;
+    cursor: pointer;
+}
+#MyPost .pagination .active{
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: #3776ab;
+}
+#MyPost .pagination .num{
+    margin: 0 3px;
+    padding: 0 3px;
+    width: 40px;
+    height: 26px;
+    line-height: 26px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#MyPost .pagination .btn{
+    padding: 0;
+    background: #FFFFFF;
+    color: #333333;
+    font-size: 12px;
+    width: 43px;
+    height: 26px;
+    border: 1px solid #e6e6e6;
+    margin: 0 3px;
+}
+#MyPost .pagination .sum{
+    color: #333333;
+    font-size: 12px;
+}
+
+#MyMes{
+    padding: 20px;
+}
+#MyMes .del button{
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: red;
+    border: none;
+    margin-bottom: 20px;
+}
+#MyMes .lists ul li{
+    list-style-type: none;
+}
+#MyMes .lists ul li .text{
+    border-left: 3px solid #3776ab;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    background: #e5e5e5;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#MyMes .lists ul li a{
+    color: #3776ab;
+    font-size: 14px;
+}
+#MyMes .lists ul li .time-btn{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #999;
+}
+#MyMes .lists ul li .time-btn .btn{
+    padding: 0;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 12px;
+    border: none;
+    width: 50px;
+    background: red;
+    color: #FFFFFF;
+}
+
+/* 用户主页 */
+.user-header{
+    background: #fff;
+    height: 250px;
+    padding: 40px 0;
+    text-align: center;
+    color: #333333;
+    margin: 20px 0;
+}
+.user-header img{
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+}
+.user-header h1{
+    font-size: 24px;
+}
+.user-header p{
+    margin: 0;
+    padding: 0;
+    color: #c9c9c9;
+}
+.user-header p>.icon-diamond{
+    color: #fed000;
+}
+.user-content>.row-fluid>.span6{
+    min-height: 500px;
+    background: #fff;
+    font-size: 14px;
+}
+.user-content>.row-fluid>.span6 .title{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #F2F2F5;
+    margin: 0;
+}
+.user-content>.row-fluid>.span6 .post{
+    padding: 0 20px;
+}
+.user-content>.row-fluid>.span6 .post li{
+    list-style-type: none;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #F2F2F5;
+}
+.user-content>.row-fluid>.span6 .post li>span{
+    color: #999999;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+}
+.user-content>.row-fluid>.span6 .post li>a{
+    display: inline-block;
+    float: left;
+    padding: 0 20px 0 0;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.user-content>.row-fluid>.span6 .reply li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+.user-content>.row-fluid>.span6 .reply li>p{
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    line-height: 24px;
+    color: #999;
+    font-size: 12px;
+}
+.user-content>.row-fluid>.span6 .reply li>div{
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background: #e5e5e5;
+}

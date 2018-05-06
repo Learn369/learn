@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优选商城</title>
+    <link rel="shortcut icon" href="images/LOGO-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/unslider.min.js"></script>
+    <script src="js/layer.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+
+<!--搜索 导航-->
+<div id="header">
+    <div class="logo-search">
+        <!--logo-->
+        <h1 class="logo">
+            <a href=""><img src="images/LOGO.png" alt=""></a>
+        </h1>
+        <!--logo END-->
+        <!--搜索栏-->
+        <div class="search">
+            <form action="#" target="_blank" method="get">
+                <input type="text" name="wd" class="search_key" placeholder="输入您想要购买的商品名称">
+                <input type="submit" value="" class="search_btn search_icon">
+                <div id="search-empty" style="opacity: 0;">
+                    <span class="x"></span>
+                </div>
+            </form>
+            <div class="search-hot">热门搜索：
+                <a href="#">手机</a>
+                <a href="#">电脑</a>
+                <a href="#">酒类</a>
+                <a href="#">短裙</a>
+            </div>
+        </div>
+        <!--搜索栏 END-->
+    </div>
+    <div class="nav">
+        <div class="center">
+            <ul class="nav_fl">
+                <li><a href="#" class="nav_index">首页</a></li>
+                <li class="arrow_bom">
+                    <a href="#" class="">好价</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">精选好价</a></a></li>
+                        <li><a href=""><a href="#">全部好价</a></a></li>
+                        <li><a href=""><a href="#">优惠券</a></a></li>
+                        <li><a href=""><a href="#">白菜</a></a></li>
+                    </ul>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">好物</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">精选好价</a></a></li>
+                        <li><a href=""><a href="#">全部好价</a></a></li>
+                        <li><a href=""><a href="#">优惠券</a></a></li>
+                        <li><a href=""><a href="#">白菜</a></a></li>
+                    </ul>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">好文</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">精选好价</a></a></li>
+                        <li><a href=""><a href="#">全部好价</a></a></li>
+                        <li><a href=""><a href="#">优惠券</a></a></li>
+                        <li><a href=""><a href="#">白菜</a></a></li>
+                    </ul>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">海淘</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">精选好价</a></a></li>
+                        <li><a href=""><a href="#">全部好价</a></a></li>
+                        <li><a href=""><a href="#">优惠券</a></a></li>
+                        <li><a href=""><a href="#">白菜</a></a></li>
+                    </ul>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">更多</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">精选好价</a></a></li>
+                        <li><a href=""><a href="#">全部好价</a></a></li>
+                        <li><a href=""><a href="#">优惠券</a></a></li>
+                        <li><a href=""><a href="#">白菜</a></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav_fr">
+                <li class="member">
+                    <a href="javascript:void(0)" class="login">登录</a><span>|</span><a href="javascript:void(0)" class="register">注册</a>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">App下载</a>
+                    <div class="drop_nav" style="">
+                        <a href="#"><img src="images/download.png" width="100%" alt="">扫码下载APP</a></a>
+                    </div>
+                </li>
+                <li class="arrow_bom">
+                    <a href="#" class="">爆料投稿</a>
+                    <ul class="drop_nav" style="">
+                        <li><a href=""><a href="#">好价爆料</a></a></li>
+                        <li><a href=""><a href="#">分享商品</a></a></li>
+                        <li><a href=""><a href="#">原创投稿</a></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--搜索 导航 结束-->
+<!--内容-->
+<div id="content">
+    <div class="center">
+        <!--首页banner-->
+        <div id="index_head">
+            <!--首页banner左侧分类导航-->
+            <div class="classify">
+                <ul class="">
+                    <li>
+                        <h3><a href="">热门标签</a></h3>
+                        <span><a href="">汽车</a><a href="">旅游</a><a href="" class="item_red">领券</a><a href="">白菜</a><a
+                                href="">酒水</a><a href="">儿童玩具</a><a href="" class="item_red">Switch</a></span>
+                    </li>
+                    <li>
+                        <h3><a href="">家具生活</a></h3>
+                        <span><a href="">生鲜</a><a href="" class="item_red">母婴</a><a href="">百货</a><a href=""
+                                                                                                     class="item_red">食品</a><a
+                                href="">厨具</a><a href="">清洁</a><a href="" class="item_red">灯具</a><a
+                                href="">保温杯</a><a href="">乐高</a><a href="">纸尿裤</a><a href="">童书</a></span>
+                    </li>
+                    <li>
+                        <h3><a href="">时尚运动</a></h3>
+                        <span><a href="">运动</a><a href="">男外套</a><a href="" class="item_red">服饰</a><a href="">跑鞋</a><a
+                                href="">口红</a><a href="">护肤</a><a href="" class="item_red">配饰</a></span>
+                    </li>
+                    <li>
+                        <h3><a href="">3C家电</a></h3>
+                        <span><a href="" class="item_red">手机</a><a href="">耳机</a><a href="">相机</a><a href="">净化器</a><a
+                                href="">Kindie</a><a href="">大家电</a><a href="" class="item_red">笔记本</a></span>
+                    </li>
+                    <!--热门品牌-->
+                    <li>
+                        <h3><a href=""><i class="hot_brand"></i>热门品牌</a></h3>
+                        <span><a href="">苹果</a><a href="">小米</a><a href="">戴森</a><a href="">NIKE</a></span>
+                    </li>
+                    <!--热门品牌结束-->
+                    <!--热门品牌-->
+                    <li>
+                        <h3><a href=""><i class="hot_shops"></i>热门商家</a></h3>
+                        <span><a href="">天猫</a><a href="">京东</a><a href="">亚马孙中国</a></span>
+                    </li>
+                    <!--热门品牌结束-->
+                </ul>
+            </div>
+            <!--首页banner左侧分类导航结束-->
+            <!--首页轮播图容器-->
+            <div class="slide">
+                <div class="slide_img">
+                    <div class="slide_show" style="left: -680px">
+                        <a href=""><img src="images/slide_img0107.png" alt=""></a>
+                        <a href=""><img src="images/slide_img0106.jpg" alt=""></a>
+                        <a href=""><img src="images/slide_img01.png" alt=""></a>
+                        <a href=""><img src="images/slide_img02.png" alt=""></a>
+                        <a href=""><img src="images/slide_img03.png" alt=""></a>
+                        <a href=""><img src="images/slide_img04.png" alt=""></a>
+                        <a href=""><img src="images/slide_img05.png" alt=""></a>
+                    </div>
+                    <div class="slide_track">
+                        <span class="white"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="slide_btn" style="display: none;">
+                        <button class="prev"></button>
+                        <button class="next"></button>
+                    </div>
+                </div>
+
+                <div class="showcase">
+                    <div class="showcase_big">
+                        <a href=""><img src="images/showcase_big.png" alt=""></a>
+                    </div>
+                    <div class="showcase_lit">
+                        <a href=""><img src="images/showcase_lit01.png" alt=""></a>
+                        <a href=""><img src="images/showcase_lit02.png" alt=""></a>
+                        <a href=""><img src="images/showcase_lit03.png" alt=""></a>
+                        <a href=""><img src="images/showcase_lit04.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!--首页轮播图容器结束-->
+            <!--首页banner右侧个人信息部分-->
+            <div class="user_wrap">
+                <div class="msg">
+                    <div class="via">
+                        <img src="images/avatar.png" alt="">
+                    </div>
+                    <div class="user_name">
+                        <span class="username">Hi 你好</span>
+                        <span class="login"><a href="#">登录</a>发现更多精彩</span>
+                        <span class="lure"><a href="">值友福利</a><a href="">新手入门</a><a href="">会员福利</a></span>
+                    </div>
+                </div>
+                <div class="sign_in">
+                    <a href="">签到得积分</a>
+                </div>
+                <!--头条轮播-->
+                <div class="headline banner has-dots">
+                    <div class="headline_top">
+                        <a href=""><img src="images/headline_top.png" alt=""></a>
+                        <div class="slide_text_con">
+                            <ol class="dots">
+                                <li class="dot active"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                                <li class="dot"></li>
+                            </ol>
+                            <a href="javascript:void(0);" class="unslider-arrow01 prev"></a>
+                            <a href="javascript:void(0);" class="unslider-arrow01 next"></a>
+                        </div>
+                    </div>
+
+                    <div class="banner has-dots" id="b01" style="overflow: hidden;">
+                        <ul class="" style="position: relative; left: 0%;">
+                            <li style="width: 304px;float: left;">
+                                <ul class="slide_text">
+                                    <li>
+                                        <a href="">儿童防蚊裤薄款夏季宝宝睡裤女童装男童裤2018新款纯棉灯笼裤子夏</a>
+                                        <span>￥11.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">夏季防蚊门帘魔术贴纱窗隔断帘磁性布艺卧室软纱门免打孔加密家用</a>
+                                        <span>￥9.2</span>
+                                    </li>
+                                    <li>
+                                        <a href="">ulzzang短袖t恤女2018夏装韩版新款百搭半袖女白色学生上衣小清新</a>
+                                        <span>￥6.9</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="width: 304px;float: left;">
+                                <ul class="slide_text">
+                                    <li>
+                                        <a href="">夏季防蚊门帘魔术贴纱窗隔断帘磁性布艺卧室软纱门免打孔加密家用</a>
+                                        <span>￥19.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">儿童防蚊裤薄款夏季宝宝睡裤女童装男童裤2018新款纯棉灯笼裤子夏</a>
+                                        <span>￥49.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">ulzzang短袖t恤女2018夏装韩版新款百搭半袖女白色学生上衣小清新</a>
+                                        <span>￥39.9</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="width: 304px;float: left;">
+                                <ul class="slide_text">
+                                    <li>
+                                        <a href="">ulzzang短袖t恤女2018夏装韩版新款百搭半袖女白色学生上衣小清新</a>
+                                        <span>￥99.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">夏季防蚊门帘魔术贴纱窗隔断帘磁性布艺卧室软纱门免打孔加密家用</a>
+                                        <span>￥95.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">儿童防蚊裤薄款夏季宝宝睡裤女童装男童裤2018新款纯棉灯笼裤子夏</a>
+                                        <span>￥9.9</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="width: 304px;float: left;">
+                                <ul class="slide_text">
+                                    <li>
+                                        <a href="">ulzzang短袖t恤女2018夏装韩版新款百搭半袖女白色学生上衣小清新</a>
+                                        <span>￥99.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">夏季防蚊门帘魔术贴纱窗隔断帘磁性布艺卧室软纱门免打孔加密家用</a>
+                                        <span>￥95.9</span>
+                                    </li>
+                                    <li>
+                                        <a href="">儿童防蚊裤薄款夏季宝宝睡裤女童装男童裤2018新款纯棉灯笼裤子夏</a>
+                                        <span>￥9.9</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <script>
+                        $(document).ready(function (e) {
+                            var unslider01 = $('#b01').unslider({
+                                    dots: true
+                                }),
+                                data01 = unslider01.data('unslider');
+                            $('.unslider-arrow01').click(function () {
+                                var fn = this.className.split(' ')[1];
+                                data01[fn]();
+                            });
+                        });
+                    </script>
+
+                </div>
+            </div>
+            <!--头条轮播结束-->
+            <div class="banner-stuff">
+                <a href=""><img src="images/banner-stuff.png" alt=""></a>
+            </div>
+            <!--首页banner右侧个人信息部分结束-->
+            <div class="clear"></div>
+        </div>
+        <!--首页banner 结束-->
+        <!--首页商品展示-->
+        <div class="goods">
+            <div class="goods_fr">
+                <!--排行榜-->
+                <div class="rank">
+                    <div class="rank_nav">
+                        <a href="" class="rank_tit">排行榜</a>
+                        <span id="spread" class="red">好价</span>
+                        <span id="nice-moon">好文</span>
+                        <span id="things">好物</span>
+                        <span id="haitao">海淘</span>
+                        <a href="" class="more">查看更多</a>
+                    </div>
+                    <div class="rank_con">
+                        <div class="spread banner show_rank_list" id="b02">
+                            <ul class="">
+                                <li>
+                                    <a href="">
+                                        <img src="images/rank01.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank02.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank03.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank04.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank05.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/rank01.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank02.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank03.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank04.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/rank05.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="unslider-arrow02 prev rank_con_btn"></a>
+                            <a href="javascript:void(0);" class="unslider-arrow02 next rank_con_btn"></a>
+                        </div>
+                        <div class="nice_moon banner" id="b03">
+                            <ul class="">
+                                <li>
+                                    <a href="">
+                                        <img src="images/nice_moon01.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon02.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon03.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon04.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon05.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/nice_moon04.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon02.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon05.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon01.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/nice_moon03.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="unslider-arrow03 prev rank_con_btn"></a>
+                            <a href="javascript:void(0);" class="unslider-arrow03 next rank_con_btn"></a>
+                        </div>
+                        <div class="things banner" id="b04">
+                            <ul class="">
+                                <li>
+                                    <a href="">
+                                        <img src="images/things03.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things02.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things05.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things01.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things04.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/things01.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things02.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things03.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things04.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/things05.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="unslider-arrow04 prev rank_con_btn"></a>
+                            <a href="javascript:void(0);" class="unslider-arrow04 next rank_con_btn"></a>
+                        </div>
+                        <div class="haitao banner" id="b05">
+                            <ul class="">
+                                <li>
+                                    <a href="">
+                                        <img src="images/haitao04.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao05.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao01.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao02.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao03.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/haitao01.jpg" alt="">
+                                        <span class="com_tit">FILCO 斐尔可 FKBN87ML/EB2 87圣手二代 机械键盘 黑色 黑轴 </span>
+                                        <span class="price">769元+10元运费（需用券）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao02.jpg" alt="">
+                                        <span class="com_tit">3日0点 : MI 小米 4C L50M5-AD 50英寸 4K液晶电视</span>
+                                        <span class="price">1999元包邮</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao03.jpg" alt="">
+                                        <span class="com_tit">华为 HUAWEI Mate 10 智能手机 亮黑色 4GB+64GB</span>
+                                        <span class="price">$779.99（约￥5100）</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao04.jpg" alt="">
+                                        <span class="com_tit">SONY 索尼 Bravia A1系列 KD-55A1 OLED电视 </span>
+                                        <span class="price">16399元</span>
+                                    </a>
+                                    <a href="">
+                                        <img src="images/haitao05.jpg" alt="">
+                                        <span class="com_tit">白菜党 : 尼维登 摇饭团模具 3格</span>
+                                        <span class="price">6.9元包邮（需用券）</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0);" class="unslider-arrow05 prev rank_con_btn"></a>
+                            <a href="javascript:void(0);" class="unslider-arrow05 next rank_con_btn"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--排行榜结束-->
+                <!--值得推荐 | 关注-->
+                <div class="nominate">
+                    <div class="nominate_list">
+                        <span class="merit press">值得买精选</span>
+                        <span class="focus">关注动态</span>
+                    </div>
+                    <!--值得推荐-->
+                    <div class="merit_box">
+                        <ul>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="merit_row">
+                                <h5><a href="">4日0点：BOSCH 博世 WTW875600W 热泵式干衣机 <span>7099元包邮</span></a></h5>
+                                <div class="title_img">
+                                    <a href=""><img src="images/BOSCH.jpg" alt="" width="100%"></a>
+                                </div>
+                                <div class="con">
+                                    <div class="username">推荐人：xiaom80</div>
+                                    <div class="text">
+                                        <span>9公斤热泵，低温烘干呵护衣服，衣干即停。BOSCH 博世 WTW875600W 热泵式干衣机，9公斤干衣量，支持定时，针对不同面料设计有15种烘干程序。采用热泵式原理，热泵式干衣机属于冷凝式的一种，但是属于冷凝式的升级版，即回收空气中的热能，不像一般干衣机是直接电加热。因为没有加热器加热，通过热泵系统实现内部热量传递，对外几乎没有热量散失，更加节能省电，同时对于衣物的损害更低。此款型号支持快烘模式40分钟衣干即停，感温控湿系统可实时监测衣物干湿程度，另外支持超干储藏、全干即穿、微干挂熨3档智能烘干模式，满足不同生活需求。</span>
+                                    </div>
+                                </div>
+                                <div class="foot">
+                                    <div class="foot_fl">
+                                        <div class="feel">
+                                            <span class="like"><icon class="like_icon"></icon><number>995</number></span>
+                                            <span class="boring"><icon class="boring_icom"></icon><number>999</number></span>
+                                        </div>
+                                        <span class="collect">
+                                            <icon class="collect_ou"></icon>
+                                            <number>644444</number>
+                                        </span>
+                                        <span class="comment">
+                                            <a href="">
+                                                <icon class="comm_ico"></icon>
+                                                <number>844442</number>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="foot_fr">
+                                        <div>
+                                            <span class="time">09:14</span>
+                                            <a href="#" class="source">天猫</a>
+                                            <span class="foot_fr_go"><a href="">去购买 ></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="merit_pagenation">
+                            <ul>
+                                <li><a href="" class="">< 上一页</a></li>
+                                <li class=""><a href="">7</a></li>
+                                <li>...</li>
+                                <li><a href="">8</a></li>
+                                <li><a href="">9</a></li>
+                                <li><a href="">10</a></li>
+                                <li><a href="">11</a></li>
+                                <li class="on"><a href="">12</a></li>
+                                <!--<li>...</li>-->
+                                <li><a href="">下一页 ></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--值得推荐结束-->
+                    <!--关注-->
+                    <div class="focus_box" style="display: none">
+                        <!--未登录状态-->
+                        <div class="login">
+                            <img src="images/my_follow.png" alt="">
+                            <div class="login_box">
+                                <p>登录后开启精彩关注功能</p>
+                                <a href="#">登录</a>
+                            </div>
+                        </div>
+                        <!--未登录状态结束-->
+                        <!--关注内容-->
+                        <div class="focus_con">
+                            <div class="focus_con_tit"><a href="">精彩关注内容</a></div>
+                            <ul>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li><li>
+                                <img src="images/focus_con.png" alt="" width="100%">
+                                <a href="" class="title">自由行</a>
+                                <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                            </li><li>
+                                <img src="images/focus_con.png" alt="" width="100%">
+                                <a href="" class="title">自由行</a>
+                                <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                            </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+                                <li>
+                                    <img src="images/focus_con.png" alt="" width="100%">
+                                    <a href="" class="title">自由行</a>
+                                    <a href="" class="conn">自由行不定时机票加酒店套餐特价产品，全国多地出发，包括全球热门目</a>
+                                </li>
+
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <!--关注内容结束-->
+                    </div>
+                    <!--关注结束-->
+                </div>
+            </div>
+
+            <!--右侧栏-->
+            <div class="goods_fl">
+                <!--热门原创-->
+                <div class="fanart">
+                    <div class="tit">
+                        <p><a href="">热门原创</a></p>
+                        <span><a href="">查看更多</a></span>
+                    </div>
+                    <!--轮播内容-->
+                    <div class="banner" id="b06">
+                        <ul>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/fanart01.jpg" alt="" width="100%"></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/fanart01.jpg" alt="" width="100%"></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/fanart01.jpg" alt="" width="100%"></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0);" class="unslider-arrow06 prev btn"></a>
+                        <a href="javascript:void(0);" class="unslider-arrow06 next btn"></a>
+                    </div>
+                    <!--轮播内容结束-->
+                </div>
+                <!--热门原创结束-->
+                <!--新锐品牌-->
+                <div class="fanart">
+                    <div class="tit">
+                        <p><a href="">新锐品牌</a></p>
+                        <span><a href="">查看更多</a></span>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <!--新锐品牌结束-->
+                <!--视频直播-->
+                <div class="fanart">
+                    <div class="tit">
+                        <p><a href="">视频·直播</a></p>
+                        <span><a href="">查看更多</a></span>
+                    </div>
+                    <!--轮播内容-->
+                    <div class="banner" id="b07">
+                        <ul>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/vdi.jpg" alt="" width="100%"><span class="video_icon"></span></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/vdi.jpg" alt="" width="100%"><span class="video_icon"></span></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                            <li>
+
+                                <div class="b06_img"><a href=""><img src="images/vdi.jpg" alt="" width="100%"><span class="video_icon"></span></a></div>
+                                <div class="b06_txt"><a href="">一篇就够了，群晖、软路由、高清盒子、Web一个都不能少，千元DIY搞定 7*24小时N合1服务器</a></div>
+                                <div class="b06_user">
+                                    <span class="user_name"><icon class="user_icon"></icon><a href="">飞盘侠</a></span>
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0);" class="unslider-arrow07 prev btn"></a>
+                        <a href="javascript:void(0);" class="unslider-arrow07 next btn"></a>
+                    </div>
+                    <!--轮播内容结束-->
+                </div>
+                <!--视频直播结束-->
+                <!--热门众测-->
+                <div class="fanart truism">
+                    <div class="tit">
+                        <p><a href="">热门众测</a></p>
+                        <span><a href="">查看更多</a></span>
+                    </div>
+                    <!--轮播内容-->
+                    <div class="banner" id="b08">
+                        <ul>
+                            <li>
+                                <div class="b06_img"><a href=""><img src="images/hots.jpg" alt="" width="100%"></a></div>
+                                <div class="b06_user">
+                                    <a class="truism_tit" href="">斐讯 家庭NAS 天天链N1</a>
+                                    <a class="truism_ask" href="">立即申请</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="b06_img"><a href=""><img src="images/hots02.jpg" alt="" width="100%"></a></div>
+                                <div class="b06_user">
+                                    <a class="truism_tit" href="">任天堂 Nintendo Labo 任天堂 Nintendo Labo 任天堂 Nintendo Labo</a>
+                                    <a class="truism_ask" href="">立即申请</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0);" class="unslider-arrow08 prev btn"></a>
+                        <a href="javascript:void(0);" class="unslider-arrow08 next btn"></a>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <div><a href=""><img src="images/654654.jpg" alt="" width="100%"></a></div>
+                            <div class="text">
+                                <p class="con"><a href="">据说每个女生房间都有一把负重过度的椅子，春天来了赶紧为了</a></p>
+                                <p class="coms">
+                                    <span class="comm">
+                                        <a href=""><icom class="comm_ico"></icom>231</a>
+                                    </span>
+                                    <span class="collect">
+                                        <a href=""><icom class="collect_ou"></icom>5124</a>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <!--轮播内容结束-->
+                </div>
+                <!--热门众测结束-->
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--首页商品展示结束-->
+    </div>
+</div>
+<!--内容结束-->
+<!--底部-->
+<footer id="footer">
+    <div class="center">
+        <div class="footer_fl">
+            <div class="footer_l_top">
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+                <a href="">招聘专区</a>
+                <a href="">网站地图</a>
+                <span class="split">|</span>
+                <a href="">机构账号</a>
+                <a href="">商家平台</a>
+                <span class="split">|</span>
+                <a href="">海淘攻略</a>
+                <a href="" >海淘晒物</a>
+            </div>
+            <div class="links">
+                <div>友情链接</div>
+                <ul>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                    <li><a href="">优选商城</a></li>
+                </ul>
+                <p class="clear"></p>
+            </div>
+            <div class="footer_l_btm">
+                <p>版权所有 本站内容未经书面许可,禁止一切形式的转载。 © copyright 2017-2018 优选商城. Optimizing mall.</p>
+                <p>京ICP备12345678号-1  京公网安备 11010602100083 电信与信息服务业务经营许可证：京ICP证123456号 广播电视节目制作经营许可证（京）字第12345号</p>
+                <p>互联网药品信息服务资格证书(京)-非经营性-2017-0107</p>
+                <p>公司名称：北京优选科技股份有限公司 地址：北京市**区**12号院3层至4层 座机：010-00000000</p>
+            </div>
+            <div class="footer_img">
+                <img src="images/szfw_org_cert.png" alt="" width="114" height="41">
+            </div>
+        </div>
+
+        <div class="footer_fr">
+            <img src="images/footer_code.png" alt="" width="100%">
+            <p>微信扫一扫立即关注</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</footer>
+<!--底部结束-->
+
+<!--登录注册-->
+<div id="lr">
+    <div class="lr_box">
+        <icon class="close"></icon>
+        <div class="lr_wrap">
+            <ul class="lr_wrap_btn">
+                <li class="form_show">登录</li>
+                <li>注册</li>
+            </ul>
+            <div class="form_box">
+                <!--登录-->
+                <form id="login-form" action="#" method="post">
+
+                    <input class="username" type="text" name="username">
+                    <span class="iphone_email">手机号/邮箱</span>
+                    <input class="password" type="password" name="password">
+                    <span class="pass">密码</span>
+                    <div>
+                        <input class="vehicle" type="checkbox" name="vehicle">
+                        <tatble>记住我 | <a class="hint" href="">忘记密码</a></tatble>
+                    </div>
+                    <input class="submit" type="submit" value="登录">
+                    <div class="ally_login">联合登录 <a href=""> 新浪微博</a> <a href=""> 腾讯微博</a> <a href=""> 腾讯QQ</a></div>
+                </form>
+                <!--登录结束-->
+                <!--注册-->
+                <form id="register-form" action="#" method="post">
+                    <input class="username" type="text" name="username">
+                    <span class="iphone_email">手机号</span>
+                    <div class="ver_code">
+                        <input class="in_ver" type="text">
+                        <span class="ver_text">输入验证码 </span>
+                        <div class="gain_ver">发送短信验证码</div>
+                    </div>
+                    <input class="password" type="password" name="password">
+                    <span class="pass">密码</span>
+                    <div>
+                        <input class="vehicle" type="checkbox" name="vehicle">
+                        <tatble>同意优选商城<a href="" class="hint">《用户协议》</a></tatble></div>
+                    <input class="submit" type="submit" value="注册">
+                </form>
+                <!--注册结束-->
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cover"></div>
+<!--登录注册结束-->
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>注册</title>
+
+    <!-- Load Roboto font -->
+    <link rel="stylesheet" href="css/Roboto.css">
+    <!-- iconfont -->
+    <link rel="stylesheet" href="fonts/fontello/css/fontello.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body class="bbs">
+<!-- 顶部导航开始 -->
+<div class="navbar blue-bac">
+    <div class="navbar-inner">
+        <div class="container">
+            <!-- 导航按钮, 小分辨率可见 -->
+            <span class="btn-navbar icon-align-justify" data-toggle="collapse" data-target=".nav-collapse"></span>
+            <a href="#" class="brand">
+                <img src="images/logo.png" width="120" height="40" alt="Logo"/>
+                <!-- logo -->
+            </a>
+            <div class=" pull-right">
+                <ul class="nav">
+                    <li><a href="sign_in.html">登录</a></li>
+                    <li><a href="sign_up.html">注册</a></li>
+                </ul>
+            </div>
+
+            <!-- 主要内容导航开始 -->
+            <div class="nav-collapse collapse pull-left">
+                <ul class="nav" id="top-navigation">
+                    <li class="active"><a href="index.html">社区</a></li>
+                    <li><a href="classify.html">WEB</a></li>
+                    <li><a href="classify.html">PHP</a></li>
+                    <li><a href="classify.html">Python</a></li>
+                    <li><a href="index.html">酷站</a></li>
+                </ul>
+            </div>
+
+            <form class="inline-group input-append">
+                <input type="text" name="text" id="text" class="span3" placeholder="搜索本站内容" required="">
+                <button class="btn" type="button"><i class="icon-search-outline"></i></button>
+            </form>
+            <!-- 主要内容导航结束 -->
+
+        </div>
+    </div>
+</div>
+<!-- 顶部导航结束 -->
+
+<!--注册表单开始-->
+<div class="main-container container sign">
+    <div class="container">
+        <div class="row-fluid top25">
+            <div class="span3"></div>
+            <div class="span6 white-bac">
+                <div class="card">
+                    <div class="card-header">注册新用户</div>
+                    <div class="card-body">
+                        <form class="new_user" id="new_user" action="" accept-charset="UTF-8" data-remote="true" method="post">
+
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="用户名" hint="谨慎填写，以后不可修改，建议用 Twitter ID。" type="text" name="user[login]" id="user_login">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="名字" type="text" name="user[name]" id="user_name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-lg" placeholder="Email" name="user[email]" id="user_email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="密码" type="password" name="user[password]" id="user_password">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="确认密码" type="password" name="user[password_confirmation]" id="user_password_confirmation">
+                            </div>
+
+                            <div class="">
+                                <input type="submit" name="commit" value="提交注册信息" class="btn btn-lg btn-primary" data-disable-with="正在提交">
+                                <a class="btn btn-default" href="">登录</a>
+                            </div>
+                        </form>      </div>
+                </div>
+            </div>
+            <div class="span3"></div>
+        </div>
+    </div>
+</div>
+<!--注册表单结束-->
+
+<!-- 底部开始 -->
+<div class="footer">
+    <div>
+        <p>Help & General Contact
+            Diversity Initiatives
+            Submit Website Bug
+            Status
+            Copyright ©2001-2018. Python Software Foundation Legal Statements Privacy Policy Powered by Rackspace</p>
+    </div>
+</div>
+<!-- 底部结束 -->
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="js/jquery-1.10.2.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/comm.js"></script>
+</body>
+</html>
